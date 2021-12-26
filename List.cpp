@@ -131,7 +131,6 @@ ifstream &List<T>::binIn(ifstream &is) {
         int* arr = new int[arr_size];
         for (int i = 0; i < arr_size; i++) {
             is.read((char *) &arr[i], sizeof(int));
-            cout << arr[i] << " ";
             Add(arr[i]);
         }
 
