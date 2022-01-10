@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(course_work)
+project(cw)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(course_work main.cpp List.cpp List.h func.h Complex.cpp Complex.h)
+add_executable(cw main.cpp List.cpp List.h)
